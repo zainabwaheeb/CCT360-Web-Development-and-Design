@@ -1,0 +1,100 @@
+
+html, body {
+    height: 100%;
+    margin: 0%;
+    font-family: "DM Sans", system-ui, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Each section is one full screen */
+
+.section-1, .section-2, .section-3, .section-4, .section-5 {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+/* Background images */
+
+.section-1 {
+    background-image: url("../images/dice.png");
+    width: 100%;
+}
+
+.section-2 {
+    background-image: url("../images/pigment.jfif");
+}
+
+.section-3 {
+    background-image: url("../images/formulation.png");
+}
+
+.section-4 {
+    background-image: url("../images/pigment-mix.jpg");
+}
+
+.section-5 {
+    background-image: url("../images/gloss.jpg");
+}
+
+
+
+/* Text that appears over each image */
+
+.caption {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.caption-text {
+  background-color: rgba(48, 21, 24, 0.88);
+    color: white;
+    background-size: auto;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 64px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+    padding: 22px 35px;
+}
+/* White text sections between images */
+
+.section-text {
+    padding: 50px 80px;
+    background-color: #f3d9dc;
+    color: #4a2028;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.7;
+}
+/* Simple movement for the sections */
+
+.section-1 {
+    background-position: center;
+    background-size: 110%;
+}
+
+.section-2 {
+    background-position: center;
+}
+
+.section-3 {
+    background-position: center;
+}
+
+.section-4 {
+    background-position: center;
+}
+
+.section-5 {
+    background-position: center;
+}
+
